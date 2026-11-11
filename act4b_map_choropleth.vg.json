@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 680,
+  "height": 560,
+  "data": {
+    "url": "data/australian-states.json",
+    "format": { "property": "features", "type": "json" }
+  },
+  "transform": [
+    {
+      "lookup": "properties.STATE_NAME",
+      "from": {
+        "data": { "url": "data/map_state_percapita.csv" },
+        "key": "STATE_NAME",
+        "fields": ["winners", "winners_per_100k"]
+      }
+    },
+    {
+      "calculate": "datum.winners == null ? 0 : datum.winners",
+      "as": "winners"
+    },
+    {
+      "calculate": "datum.winners_per_100k == null ? 0 : datum.winners_per_100k",
+      "as": "per100k"
+    }
+  ],
+  "projection": { "type": "mercator", "center": [133.5, -28.4], "scale": 820 },
+  "mark": { "type": "geoshape", "stroke": "#faf7f2", "strokeWidth": 1.2 },
+  "encoding": {
+    "color": {
+      "field": "per100k",
+      "type": "quantitative",
+      "scale": {
+        "range": ["#fdf6e3", "#f3e2a9", "#e8cf7a", "#d9b036", "#b8860b"],
+        "domain": [0, 0.2]
+      },
+      "legend": {
+        "title": "Gold Logie winners per 100,000 residents",
+        "orient": "top",
+        "direction": "horizontal",
+        "gradientLength": 240,
+        "titleFontSize": 11,
+        "labelFontSize": 11
+      }
+    },
+    "tooltip": [
+      { "field": "properties.STATE_NAME", "title": "State" },
+      { "field": "winners", "title": "Winners born there" },
+      {
+        "field": "per100k",
+        "title": "Winners per 100k residents",
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": { "stroke": null },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 786,
+  "height": 260,
+  "data": {
+    "url": "data/gold_logie_wins_gender.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "count",
+          "as": "wins"
+        }
+      ],
+      "groupby": ["decade", "gender"]
+    }
+  ],
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "ordinal",
+      "sort": [
+        "1950s",
+        "1960s",
+        "1970s",
+        "1980s",
+        "1990s",
+        "2000s",
+        "2010s",
+        "2020s"
+      ],
+      "axis": {
+        "title": "Decade",
+        "labelAngle": 0,
+        "labelFontSize": 12
+      }
+    },
+    "y": {
+      "field": "wins",
+      "type": "quantitative",
+      "stack": "normalize",
+      "axis": {
+        "title": "Share of Gold Logie wins",
+        "format": "%",
+        "grid": false
+      }
+    },
+    "color": {
+      "field": "gender",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Female", "Male", "Unknown"],
+        "range": ["#b8860b", "#1f6f6b", "#c9c2b8"]
+      },
+      "legend": {
+        "title": "Winner",
+        "orient": "top",
+        "columns": 3,
+        "titleFontSize": 11,
+        "labelFontSize": 11
+      }
+    },
+    "tooltip": [
+      {
+        "field": "decade",
+        "title": "Decade"
+      },
+      {
+        "field": "gender",
+        "title": "Gender"
+      },
+      {
+        "field": "wins",
+        "title": "Gold Logies"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

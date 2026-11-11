@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Two systems for deciding what is 'best' on Australian TV",
+    "subtitle": "Milestones in the history of Australian television awards, 1959-2026",
+    "anchor": "start",
+    "fontSize": 16,
+    "subtitleFontSize": 12
+  },
+  "width": 860,
+  "height": 160,
+  "data": {"url": "data/awards_timeline.csv"},
+  "transform": [
+    {"calculate": "datum.year == '1970s' || datum.year == '1986' ? 'Soap era' : datum.year == '1984' ? 'Pioneering' : datum.year", "as": "year_label"},
+    {"calculate": "datum.year == '1970s' ? 1975 : datum.year == '1986' ? 1986 : +datum.year", "as": "yr"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#c9c2b8"},
+      "encoding": {"x": {"field": "yr", "type": "quantitative", "title": null}}
+    },
+    {
+      "mark": {"type": "point", "filled": true, "size": 90, "color": "#b8860b", "stroke": "#5b4a1f", "strokeWidth": 1},
+      "encoding": {
+        "x": {"field": "yr", "type": "quantitative", "title": null,
+              "scale": {"domain": [1957, 2028]},
+              "axis": {"format": "d", "grid": false, "tickCount": 10}},
+        "y": {"value": 80},
+        "tooltip": [
+          {"field": "year", "title": "Milestone"},
+          {"field": "event", "title": "Event"},
+          {"field": "detail", "title": "Detail"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "fontSize": 11, "fontWeight": "bold", "color": "#3b352c", "dy": -22, "limit": 120, "align": {"expr": "datum.yr > 2015 ? 'right' : 'left'"}, "dx": {"expr": "datum.yr > 2015 ? -4 : 4"}},
+      "encoding": {
+        "x": {"field": "yr", "type": "quantitative"},
+        "y": {"value": 80},
+        "text": {"field": "event"}
+      }
+    },
+    {
+      "mark": {"type": "text", "fontSize": 10, "color": "#8a8072", "dy": 16, "limit": 140, "align": {"expr": "datum.yr > 2015 ? 'right' : 'left'"}, "dx": {"expr": "datum.yr > 2015 ? -4 : 4"}},
+      "encoding": {
+        "x": {"field": "yr", "type": "quantitative"},
+        "y": {"value": 80},
+        "text": {"field": "detail"}
+      }
+    }
+  ],
+  "config": {
+    "background": "transparent",
+    "view": {"stroke": null},
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {"font": "'Georgia', 'Times New Roman', serif", "color": "#3b352c"}
+  }
+}

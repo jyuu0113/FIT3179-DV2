@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 785,
+  "height": 240,
+  "data": {
+    "url": "data/aacta_program_winners.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.is_winner && datum.broadcaster_norm"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "count",
+          "as": "wins"
+        }
+      ],
+      "groupby": ["year", "broadcaster_norm"]
+    },
+    {
+      "window": [
+        {
+          "op": "sum",
+          "field": "wins",
+          "as": "total"
+        }
+      ],
+      "groupby": ["year"]
+    },
+    {
+      "calculate": "datum.wins / datum.total",
+      "as": "share"
+    },
+    {
+      "filter": "datum.year >= 2012"
+    }
+  ],
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "ordinal",
+      "axis": {
+        "title": "AACTA ceremony",
+        "labelAngle": 0,
+        "labelFontSize": 11
+      }
+    },
+    "y": {
+      "field": "share",
+      "type": "quantitative",
+      "axis": {
+        "title": "Share of TV category winners",
+        "format": "%",
+        "grid": false
+      },
+      "stack": "normalize"
+    },
+    "color": {
+      "field": "broadcaster_norm",
+      "type": "nominal",
+      "sort": {
+        "op": "sum",
+        "field": "wins",
+        "order": "descending"
+      },
+      "scale": {
+        "domain": [
+          "ABC",
+          "Nine",
+          "Seven",
+          "Ten",
+          "SBS",
+          "Netflix",
+          "Stan",
+          "Binge",
+          "Foxtel",
+          "Prime Video",
+          "Paramount+"
+        ],
+        "scheme": "tableau20"
+      },
+      "legend": {
+        "title": "Broadcaster",
+        "orient": "bottom",
+        "columns": 6,
+        "symbolLimit": 12
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "title": "Ceremony"
+      },
+      {
+        "field": "broadcaster_norm",
+        "title": "Broadcaster"
+      },
+      {
+        "field": "wins",
+        "title": "Winners"
+      },
+      {
+        "field": "share",
+        "title": "Share",
+        "format": ".1%"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

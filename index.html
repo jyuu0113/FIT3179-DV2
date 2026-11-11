@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who Really Decides What's Good on Australian TV?</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="masthead">
+      <p class="kicker">An interactive story about Australian television, 1959&ndash;2026</p>
+      <h1>Who Really Decides What&rsquo;s<br>Good on Australian TV?</h1>
+      <p class="standfirst">Every year, Australian television is judged twice: once by
+        the voting public at the TV WEEK Logie Awards, and once by the industry at the
+        AACTA Awards. Sixty-six years of results show they rarely agree &mdash; and
+        where they do agree, something special is happening.</p>
+    </header>
+
+    <main>
+      <!-- ============ ACT I: THE PEOPLE'S AWARD ============ -->
+      <section id="act-2" class="act">
+        <h2>Act I &mdash; The people's pick: 66 years of Gold Logies</h2>
+        <p>Since 1960, TV WEEK's Gold Logie has crowned the personality Australia voted for.
+           Which kinds of stars collect it, and has that changed?</p>
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">What kind of star wins Australia's Gold Logie?</h3>
+
+
+          <p class="card-subtitle">Gold Logie wins by the winner&rsquo;s star type, decade by decade, 1959&ndash;2026.
+           In the award&rsquo;s first three decades the country&rsquo;s variety hosts dominated, 
+           many of them the Nine Network&rsquo;s ever-present faces, but from the
+           1990s drama actors and comedy performers took over. Winners are drawn from the TV WEEK
+           Logie Awards records (via Wikipedia); star types are the author&rsquo;s editorial
+           labels, based on each winner&rsquo;s craft and winning program.</p>
+
+
+
+          <div id="vis-act2-star-heatmap" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Repeat Gold Logie winners: a career in gold</h3>
+
+
+          <p class="card-subtitle">The first and last Gold Logie win of every multi-time winner, from the TV WEEK
+           Logie Awards records. Graham Kennedy&rsquo;s wins stretch from 1960 to 1978 while Lisa McCune&rsquo;s four came in four
+           consecutive years. Only winners with two or more Gold Logies are shown;
+           joint-win years count once per winner.</p>
+
+
+
+          <div id="vis-act2-repeat-dumbbell" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Four networks, one gold statue: the decade race</h3>
+
+
+          <p class="card-subtitle">Gold Logie wins per decade by the network of each winner&rsquo;s program. The
+           Nine Network leads the all-time count with 32 wins, powered by a variety-era peak of
+           nine wins in the 1970s, while the Seven Network&rsquo;s 2023&ndash;25 run and Network 10&rsquo;s 2026 win close the story.
+           Every chart in this story counts the winner&rsquo;s own network, never the
+           broadcaster that televised the ceremony.</p>
+
+
+
+          <div id="vis-act2-network-slope" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Who holds the Gold Logie, year by year</h3>
+
+
+          <p class="card-subtitle">Each bar is a run of consecutive years in which the same network supplied the
+           Gold Logie winner, and each dot a one-off winning year. The Nine Network owned the
+           variety era and the 1990s; the Seven Network reigned from 2023 to 2025.
+           No network has held the award longer than five consecutive years, but the
+           Nine Network leads the all-time count with 32 wins to Seven&rsquo;s 22. The shaded
+           band marks the cancelled 2020&ndash;21 ceremonies.</p>
+
+
+
+          <div id="vis-act2-network-reigns" class="chart"></div>
+
+
+        </figure>
+
+      </section>
+
+      <!-- ============ ACT II: THE INDUSTRY'S AWARD ============ -->
+      <section id="act-3" class="act">
+        <h2>Act II &mdash; The industry's counterpoint: the AACTAs</h2>
+        <p>In 2011 the Australian Film Institute's awards became the AACTA Awards, voted by
+           industry peers. Its television categories tell a different story about what
+           &ldquo;good&rdquo; means.</p>
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Where the industry's honours land</h3>
+
+
+          <p class="card-subtitle">Share of AACTA program-category winners by broadcaster per ceremony, 2020&ndash;2026.
+           The peer vote leans heavily towards ABC productions, streaming services and pay TV,
+           in sharp contrast to the free-to-air loyalty of the Gold Logie. Craft and acting
+           categories are excluded because AACTA&rsquo;s records do not attribute a broadcaster
+           for them, and full nominee detail is only published from 2020 onwards.</p>
+
+
+
+          <div id="vis-act3-aacta-network" class="chart"></div>
+
+
+        </figure>
+
+      </section>
+
+      <!-- ============ ACT III: THE DIVERGENCE ============ -->
+      <section id="act-4" class="act">
+        <h2>Act III &mdash; The couch vs the jury room</h2>
+        <p>Since 2012 both systems have run in parallel. Put their choices side by side and a
+           pattern emerges.</p>
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">What the couch loves vs what the industry crowns</h3>
+
+
+          <p class="card-subtitle">Genre of winning programs since 2012, on both sides of the divide: viewer-voted
+           Logies versus peer-voted AACTAs. Factual and children&rsquo;s programming wins AACTAs
+           but almost never Gold Logies, while light entertainment is the shared ground.
+           Genres are the author&rsquo;s editorial labels for each program.</p>
+
+
+
+          <div id="vis-act3-genre-compare" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">The dual canon: crowned by audiences and the industry</h3>
+
+
+          <p class="card-subtitle">Programs that have won both a Gold Logie and an AACTA since 2012 &mdash; only 11
+           qualify, so recognition from both sides is rare. <em>The Newsreader</em> dominates
+           the industry tally, while <em>MasterChef Australia</em> and <em>Bluey</em> are the
+           shared ground.</p>
+
+
+
+          <div id="vis-act3-canon-matrix" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">The Gold Logie's gender balance over time</h3>
+
+
+          <p class="card-subtitle">Share of Gold Logie wins by the winner&rsquo;s gender, decade by decade,
+           1959&ndash;2026. Joint-win years count once per winner, and the gender label for each
+           winner comes from their biography record.</p>
+
+
+
+          <div id="vis-act3-gender" class="chart"></div>
+
+
+        </figure>
+
+      </section>
+
+      <!-- ============ ACT IV: THE GEOGRAPHY ============ -->
+      <section id="act-5" class="act">
+        <h2>Act IV &mdash; Where recognition lives</h2>
+        <p>Every Gold Logie winner was born somewhere. Plotting those hometowns turns
+           an awards history into a map of where Australia's television talent comes from.</p>
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Recognition by state of origin, population-adjusted</h3>
+
+
+          <p class="card-subtitle">Gold Logie winners born in each state, divided by that state&rsquo;s population:
+           winners per 100,000 residents (ABS estimated resident population, June 2024).
+           Raw counts flatter the big states; the rate reveals Victoria and South Australia as
+           the strongest producers of Gold Logie winners per capita.</p>
+
+
+
+          <div id="vis-act4-map-choropleth" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Hometowns that raise champions</h3>
+
+
+          <p class="card-subtitle">One dot for every Gold Logie winner, placed at their hometown. Melbourne&rsquo;s
+           nine winners have collected 15 Gold Logies, and Perth&rsquo;s three have collected
+           nine. Where many winners share a hometown (Melbourne, Sydney,
+           Adelaide), dots fan out in a small sunflower pattern so every winner stays
+           individually visible &mdash; hover a dot for the winner and their hometown. Of the 49
+           winners, 31 have a known Australian hometown, 13 were born overseas (world map below)
+           and 5 have no recorded birthplace.</p>
+
+
+
+          <div id="vis-act4-map-birthplaces" class="chart"></div>
+
+
+        </figure>
+
+
+
+        <figure class="card">
+
+
+          <h3 class="card-title">Imported stars: the overseas-born Gold Logie winners</h3>
+
+
+          <p class="card-subtitle">The Gold Logie has never been a purely local affair: 13 of its 49 winners were born
+           overseas. Circle size shows how many winners each country produced &mdash; the United
+           Kingdom leads with 6, ahead of the United States (3) and New Zealand (2).
+           Birthplaces come from each winner&rsquo;s biography record; 5 winners have no recorded
+           birthplace and are excluded. Where two symbols would overlap (the United Kingdom
+           and Austria), the smaller circle is displaced slightly so each stays individually
+           hoverable &mdash; the same disclosed jitter used on the Australian map.</p>
+
+
+
+          <div id="vis-act4-map-symbols" class="chart"></div>
+
+
+        </figure>
+
+      </section>
+
+      <!-- ============ CLOSER ============ -->
+      <section id="closer" class="act">
+        <h2>Conclusion</h2>
+        <p>Both systems are measuring different things. The couch (Logie)
+           loves Nine's variety hosts and familiar soap faces; the jury room (AACTA) crowns ABC and
+           streaming dramas like <em>The Newsreader</em>. When the two agree &mdash; on
+           <em>Bluey</em>, on <em>MasterChef</em>, on <em>Have You Been Paying Attention?</em> &mdash;
+           Australia has found something genuinely universally loved. That agreement is rare as
+           only 11 programs have managed it.</p>
+      </section>
+    </main>
+
+    <footer class="colophon">
+      <p><strong>Author:</strong> Jerry Chenxuan Yu, November 2026.</p>
+      <p><strong>Data sources:</strong>
+        (1) TV WEEK Logie Awards records &mdash; Wikipedia (<a
+        href="https://en.wikipedia.org/wiki/Logie_Awards">Logie Awards</a>,
+        <a href="https://en.wikipedia.org/wiki/Gold_Logie_Award_for_Most_Popular_Personality_on_Australian_Television">Gold Logie</a>,
+        per-year ceremony pages), CC BY-SA 4.0;
+        (2) <a href="https://www.aacta.org/aacta-awards/winners-and-nominees/">AACTA Awards
+        winners &amp; nominees</a>, aacta.org;
+        (3) birthplaces and biographical details via <a href="https://www.wikidata.org">Wikidata</a> (CC0).
+        Where Wikidata records were missing or ambiguous, fields are marked Unknown rather than guessed. Data was
+        scraped using GenAI.</p>
+      <p><strong>AI acknowledgement:</strong> GLM-5.3-Flash (roughly 40 iterations) was used to compile the datasets. It was also used throughout
+      the project to help with brainstorming, code debugging, and writing.</p>
+    </footer>
+  </div>
+
+  <script src="js/vega_lite_vis.js"></script>
+</body>
+</html>

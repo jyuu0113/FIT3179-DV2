@@ -1,0 +1,288 @@
+year,person,program,network,is_winner
+1960,Graham Kennedy,In Melbourne Tonight,Nine,True
+1961,Bob Dyer,Pick a Box,Seven,True
+1962,Lorrae Desmond,The Lorrae Desmond Show,ABC,True
+1962,Tommy Hanlon Jr.,It Could Be You,Nine,True
+1963,Michael Charlton,Four Corners,ABC,True
+1964,Bobby Limb,The Mobil Limb Show,Nine,True
+1965,Jimmy Hannan,Jimmy,Ten,True
+1966,Gordon Chater,The Mavis Bramston Show,Seven,True
+1967,Graham Kennedy,In Melbourne Tonight,Nine,True
+1967,Hazel Phillips,The Barry Crocker Show,Ten,True
+1968,Brian Henderson,Bandstand,Nine,True
+1969,Graham Kennedy,In Melbourne Tonight,Nine,True
+1970,Barry Crocker,Sound of Music,Nine,True
+1970,Maggie Tabberer,Maggie,Seven,True
+1970,Neil Armstrong and Buzz Aldrin,Apollo 11 broadcast,Other/unknown,True
+1971,Gerard Kennedy,Division 4,Nine,True
+1971,Maggie Tabberer,Maggie,Seven,True
+1971,Bob and Dolly Dyer,Pick a Box,Seven,True
+1972,Gerard Kennedy,Division 4,Nine,True
+1973,Tony Barber,Great Temptation,Seven,True
+1974,Graham Kennedy,The Graham Kennedy Show,Nine,True
+1974,Pat McDonald,Number 96,Ten,True
+1975,Ernie Sigley,The Ernie Sigley Show,Nine,True
+1975,Denise Drysdale,The Ernie Sigley Show,Nine,True
+1976,Norman Gunston,The Norman Gunston Show,ABC,True
+1976,Denise Drysdale,The Ernie Sigley Show,Nine,True
+1977,Don Lane,The Don Lane Show,Nine,True
+1977,Jeanne Little,The Mike Walsh Show,Ten,True
+1978,Graham Kennedy,Blankety Blanks,Ten,True
+1979,Bert Newton,The Don Lane Show,Nine,True
+1980,Mike Walsh,The Mike Walsh Show,Nine,True
+1981,Bert Newton,The Don Lane Show,Nine,True
+1982,Bert Newton,The Don Lane Show,Nine,True
+1983,Daryl Somers,Hey Hey It's Saturday,Nine,True
+1984,Bert Newton,The Don Lane Show,Nine,True
+1985,Rowena Wallace,Sons and Daughters,Seven,True
+1986,Daryl Somers,Hey Hey It's Saturday,Nine,True
+1987,Ray Martin,Midday,Nine,True
+1988,Kylie Minogue,Neighbours,Ten,True
+1989,Daryl Somers,Hey Hey It's Saturday,Nine,True
+1989,Jason Donovan,Neighbours,Ten,False
+1989,Craig McLachlan,Neighbours,Ten,False
+1989,Kylie Minogue,Neighbours,Ten,False
+1990,Craig McLachlan,Neighbours,Ten,True
+1990,Ray Martin,Midday,Nine,False
+1990,Daryl Somers,Hey Hey It's Saturday,Nine,False
+1990,Jana Wendt,A Current Affair,Nine,False
+1991,Steve Vizard,Fast Forward,Seven,True
+1992,Jana Wendt,A Current Affair,Nine,True
+1993,Ray Martin,Midday,Nine,True
+1994,Ray Martin,Midday,Nine,True
+1995,Ray Martin,A Current Affair,Nine,True
+1995,Daryl Somers,Hey Hey It's Saturday,Nine,False
+1995,Gary Sweet,Police Rescue,ABC,False
+1995,Melissa George,Home and Away,Seven,False
+1996,Ray Martin,A Current Affair,Nine,True
+1996,Lisa McCune,Blue Heelers,Seven,False
+1996,Melissa George,Home and Away,Seven,False
+1996,Dieter Brummer,Home and Away,Seven,False
+1996,Daryl Somers,Hey Hey It's Saturday,Nine,False
+1997,Lisa McCune,Blue Heelers,Seven,True
+1997,Daryl Somers,Hey Hey It's Saturday,Nine,False
+1997,Kerri-Anne Kennerley,Midday with Kerri-Anne,Nine,False
+1997,Ray Martin,A Current Affair,Nine,False
+1997,John Wood,Blue Heelers,Seven,False
+1998,Lisa McCune,Blue Heelers,Seven,True
+1998,Kerri-Anne Kennerley,Midday with Kerri-Anne,Nine,False
+1998,Ray Martin,A Current Affair,Nine,False
+1998,Daryl Somers,Hey Hey It's Saturday,Nine,False
+1998,John Wood,Blue Heelers,Seven,False
+1999,Lisa McCune,Blue Heelers,Seven,True
+1999,Belinda Emmett,Home and Away,Seven,False
+1999,Kerri-Anne Kennerley,Midday with Kerri-Anne,Nine,False
+1999,Georgie Parker,All Saints,Seven,False
+1999,John Wood,Blue Heelers,Seven,False
+2000,Lisa McCune,Blue Heelers,Seven,True
+2000,Don Burke,Burke's Backyard,Nine,False
+2000,Georgie Parker,All Saints,Seven,False
+2000,Sigrid Thornton,SeaChange,ABC,False
+2000,John Wood,Blue Heelers,Seven,False
+2001,Georgie Parker,All Saints,Seven,True
+2001,Lisa McCune,Blue Heelers and The Potato Factory,Seven,False
+2001,Ada Nicodemou,Home and Away,Seven,False
+2001,Sigrid Thornton,SeaChange,ABC,False
+2001,John Wood,Blue Heelers,Seven,False
+2002,Georgie Parker,All Saints,Seven,True
+2002,Rove McManus,Rove (Live),Ten,False
+2002,Ada Nicodemou,Home and Away,Seven,False
+2002,Libby Tanner,All Saints,Seven,False
+2002,John Wood,Blue Heelers,Seven,False
+2003,Rove McManus,Rove (Live),Ten,True
+2003,Lisa Chappell,McLeod's Daughters,Nine,False
+2003,Georgie Parker,All Saints,Seven,False
+2003,Libby Tanner,All Saints,Seven,False
+2003,John Wood,Blue Heelers,Seven,False
+2004,Rove McManus,Rove (Live),Ten,True
+2004,Lisa Chappell,McLeod's Daughters,Nine,False
+2004,Delta Goodrem,Neighbours,Ten,False
+2004,Georgie Parker,All Saints,Seven,False
+2004,John Wood,Blue Heelers,Seven,False
+2005,Rove McManus,Rove (Live),Ten,True
+2005,Bridie Carter,McLeod's Daughters,Nine,False
+2005,Bec Cartwright,Home and Away,Seven,False
+2005,Georgie Parker,All Saints,Seven,False
+2005,John Wood,Blue Heelers,Seven,False
+2006,John Wood,Blue Heelers,Seven,True
+2006,Natalie Bassingthwaighte,Neighbours,Ten,False
+2006,Bridie Carter,McLeod's Daughters,Nine,False
+2006,Bec Cartwright,Home and Away,Seven,False
+2006,Rove McManus,Rove Live,Ten,False
+2006,Bert Newton,Good Morning Australia,Ten,False
+2006,Ada Nicodemou,Home and Away,Seven,False
+2006,Kate Ritchie,Home and Away,Seven,False
+2007,Kate Ritchie,Home and Away,Seven,True
+2007,Natalie Blair,Neighbours,Ten,False
+2007,Rachael Carpani,McLeod's Daughters,Nine,False
+2007,John Howard,All Saints and The Real Seachange,Seven,False
+2007,Simmone Jade Mackinnon,McLeod's Daughters,Nine,False
+2007,Rove McManus,Rove Live,Ten,False
+2007,Bert Newton,Bert's Family Feud and 20 to 1,Nine,False
+2007,John Wood,Blue Heelers,Seven,False
+2008,Kate Ritchie,Home and Away,Seven,True
+2008,Natalie Blair,Neighbours,Ten,False
+2008,Andrew Denton,Enough Rope,ABC,False
+2008,Adam Hills,Spicks and Specks,ABC,False
+2008,John Howard,All Saints,Seven,False
+2008,Chris Lilley,Summer Heights High,ABC,False
+2008,Lisa McCune,Sea Patrol,Nine,False
+2008,Rove McManus,Rove and Are You Smarter Than a 5th Grader?,Ten,False
+2009,Rebecca Gibney,Packed to the Rafters,Seven,True
+2009,Natalie Bassingthwaighte,So You Think You Can Dance Australia,Ten,False
+2009,Andrew Denton,Enough Rope,ABC,False
+2009,Adam Hills,Spicks and Specks,ABC,False
+2009,Simmone Jade Mackinnon,McLeod's Daughters,Nine,False
+2009,Rove McManus,Rove and Are You Smarter Than a 5th Grader?,Ten,False
+2009,Kate Ritchie,Home and Away,Seven,False
+2009,Ian Smith,Neighbours,Ten,False
+2010,Ray Meagher,Home and Away,Seven,True
+2010,Esther Anderson,Home and Away,Seven,False
+2010,Wil Anderson,The Gruen Transfer,ABC,False
+2010,Rebecca Gibney,Packed to the Rafters,Seven,False
+2010,Adam Hills,Spicks and Specks,ABC,False
+2010,Paul McDermott,Good News Week,Ten,False
+2010,Rove McManus,Rove and Are You Smarter Than a 5th Grader?,Ten,False
+2010,Shaun Micallef,Talkin' 'Bout Your Generation,Ten,False
+2011,Karl Stefanovic,Today,Nine,True
+2011,Rebecca Gibney,Packed to the Rafters,Seven,False
+2011,Adam Hills,Spicks and Specks,ABC,False
+2011,Asher Keddie,Offspring,Ten,False
+2011,Jessica Marais,Packed to the Rafters,Seven,False
+2011,Chrissie Swan,The Circle,Ten,False
+2012,Hamish Blake,Hamish and Andy's Gap Year,Nine,True
+2012,Esther Anderson,Home and Away,Seven,False
+2012,Carrie Bickmore,The Project,Ten,False
+2012,Adam Hills,Spicks and Specks and Adam Hills in Gordon Street Tonight,ABC,False
+2012,Asher Keddie,Offspring,Ten,False
+2012,Asher Keddie,Paper Giants: The Birth of Cleo,ABC,False
+2012,Karl Stefanovic,Today,Nine,False
+2013,Asher Keddie,Offspring,Ten,True
+2013,Carrie Bickmore,The Project,Ten,False
+2013,Hamish Blake,Hamish and Andy's Euro Gap Year,Nine,False
+2013,Hamish Blake,Hamish and Andy's Caravan of Courage: Australia Vs New Zealand,Nine,False
+2013,Adam Hills,Adam Hills in Gordon Street Tonight,ABC,False
+2013,Andy Lee,Hamish and Andy's Euro Gap Year,Nine,False
+2013,Andy Lee,Hamish and Andy's Caravan of Courage: Australia Vs New Zealand,Nine,False
+2013,Steve Peacocke,Home and Away,Seven,False
+2014,Scott Cam,The Block,Nine,True
+2014,Carrie Bickmore,The Project,Ten,False
+2014,Essie Davis,Miss Fisher's Murder Mysteries,ABC,False
+2014,Asher Keddie,Offspring,Ten,False
+2014,Andy Lee,Hamish & Andy's Gap Year Asia,Nine,False
+2014,Steve Peacocke,Home and Away,Seven,False
+2015,Carrie Bickmore,The Project,Ten,True
+2015,Hamish Blake,Hamish & Andy's Gap Year South America,Nine,False
+2015,Scott Cam,The Block,Nine,False
+2015,Asher Keddie,Offspring,Ten,False
+2015,Asher Keddie,Party Tricks,Ten,False
+2015,Andy Lee,Hamish & Andy's Gap Year South America,Nine,False
+2015,Steve Peacocke,Home and Away,Seven,False
+2016,Waleed Aly,The Project,Ten,True
+2016,Carrie Bickmore,The Project,Ten,False
+2016,Essie Davis,Miss Fisher's Murder Mysteries,ABC,False
+2016,Grant Denyer,Family Feud,Ten,False
+2016,Grant Denyer,The Great Australian Spelling Bee,Ten,False
+2016,Lee Lin Chin,SBS World News,SBS,False
+2016,Lee Lin Chin,The Feed,SBS,False
+2016,Scott Cam,The Block,Nine,False
+2016,Scott Cam,Reno Rumble,Nine,False
+2017,Samuel Johnson,Molly,Seven,True
+2017,Waleed Aly,The Project,Ten,False
+2017,Rodger Corser,Doctor Doctor,Nine,False
+2017,Rodger Corser,The Doctor Blake Mysteries,ABC,False
+2017,Grant Denyer,All Star Family Feud,Ten,False
+2017,Grant Denyer,Family Feud,Ten,False
+2017,Grant Denyer,The Great Australian Spelling Bee,Ten,False
+2017,Peter Helliar,The Project,Ten,False
+2017,Jessica Marais,Love Child,Nine,False
+2017,Jessica Marais,The Wrong Girl,Ten,False
+2018,Grant Denyer,All Star Family Feud,Ten,True
+2018,Grant Denyer,Family Feud,Ten,True
+2018,Amanda Keller,The Living Room,Ten,False
+2018,Andrew Winter,Selling Houses Australia,Other/unknown,False
+2018,Andrew Winter,Love It or List It Australia,Other/unknown,False
+2018,Jessica Marais,Love Child,Nine,False
+2018,Jessica Marais,The Wrong Girl,Ten,False
+2018,Rodger Corser,Doctor Doctor,Nine,False
+2018,Tracy Grimshaw,A Current Affair,Nine,False
+2019,Tom Gleeson,Hard Quiz,ABC,True
+2019,Amanda Keller,The Living Room,Ten,False
+2019,Amanda Keller,Dancing with the Stars,Ten,False
+2019,Costa Georgiadis,Gardening Australia,ABC,False
+2019,Eve Morey,Neighbours,Ten,False
+2019,Rodger Corser,Doctor Doctor,Nine,False
+2019,Sam Mac,Sunrise,Seven,False
+2019,Waleed Aly,The Project,Ten,False
+2022,Hamish Blake,Lego Masters,Nine,True
+2022,Julia Morris,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2022,Karl Stefanovic,Today,Nine,False
+2022,Karl Stefanovic,60 Minutes,Nine,False
+2022,Melissa Leong,MasterChef Australia,Ten,False
+2022,Melissa Leong,Celebrity MasterChef Australia,Ten,False
+2022,Ray Meagher,Home and Away,Seven,False
+2022,Sonia Kruger,Big Brother,Seven,False
+2022,Sonia Kruger,Holey Moley,Seven,False
+2022,Sonia Kruger,Dancing with the Stars: All Stars,Seven,False
+2022,Sonia Kruger,The Voice,Seven,False
+2022,Sonia Kruger,The Voice: Generations,Seven,False
+2022,Tom Gleeson,Hard Quiz,ABC,False
+2023,Sonia Kruger,Big Brother,Seven,True
+2023,Sonia Kruger,Dancing with the Stars,Seven,True
+2023,Sonia Kruger,The Voice,Seven,True
+2023,Hamish Blake,Lego Masters,Nine,False
+2023,Julia Morris,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2023,Julia Morris,Taskmaster Australia,Ten,False
+2023,Leigh Sales,7.30,ABC,False
+2023,Mark Coles Smith,Mystery Road: Origin,ABC,False
+2023,Osher Günsberg,The Bachelors Australia,Ten,False
+2023,Osher Günsberg,The Masked Singer Australia,Ten,False
+2023,Shaun Micallef,Shaun Micallef's Mad as Hell,ABC,False
+2024,Larry Emdur,The Chase Australia,Seven,True
+2024,Larry Emdur,The Morning Show,Seven,True
+2024,Andy Lee,The Hundred with Andy Lee,Nine,False
+2024,Asher Keddie,Strife,Other/unknown,False
+2024,Julia Morris,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2024,Robert Irwin,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2024,Sonia Kruger,Big Brother,Seven,False
+2024,Sonia Kruger,Dancing with the Stars,Seven,False
+2024,Sonia Kruger,The Voice,Seven,False
+2024,Sonia Kruger,Logies Red Carpet,Seven,False
+2024,Tony Armstrong,News Breakfast,ABC,False
+2024,Tony Armstrong,Great Australian Stuff,ABC,False
+2025,Lynne McGranger,Home and Away,Seven,True
+2025,Ally Langdon,A Current Affair,Nine,False
+2025,Ally Langdon,The Olympic Games Paris 2024,Nine,False
+2025,Hamish Blake,Lego Masters Australia,Nine,False
+2025,Julia Morris,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2025,Lisa Millar,Back Roads,ABC,False
+2025,Lisa Millar,ABC News Breakfast,ABC,False
+2025,Lisa Millar,Muster Dogs: Collies & Kelpies,ABC,False
+2025,Lisa Millar,Muster Dogs: Where Are They Now,ABC,False
+2025,Poh Ling Yeow,MasterChef Australia,Ten,False
+2025,Sonia Kruger,The Voice,Seven,False
+2025,Sonia Kruger,Dancing with the Stars,Seven,False
+2025,Sonia Kruger,Logies Red Carpet Show,Seven,False
+2026,,,Other/unknown,False
+2026,Sam Pang,Sam Pang Tonight,Ten,True
+2026,Sam Pang,Have You Been Paying Attention?,Ten,True
+2026,Sam Pang,The Front Bar,Seven,True
+2026,Sam Pang,Logie Awards 2025,Seven,True
+2026,Allison Langdon,A Current Affair,Nine,False
+2026,Allison Langdon,The Great Debate,Nine,False
+2026,Allison Langdon,Election 2025: Australia Decides,Nine,False
+2026,Allison Langdon,Winter Olympic Games 2026,Nine,False
+2026,Allison Langdon,Parental Guidance,Nine,False
+2026,Julia Morris,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2026,Lisa Millar,Back Roads,ABC,False
+2026,Lisa Millar,Muster Dogs,ABC,False
+2026,Lisa Millar,Muster Dogs: Where Are They Now,ABC,False
+2026,Poh Ling Yeow,MasterChef Australia,Ten,False
+2026,Robert Irwin,I'm a Celebrity...Get Me Out of Here!,Ten,False
+2026,Todd Woodbridge,Tipping Point Australia,Nine,False
+2026,Todd Woodbridge,Australian Open,Nine,False
+2026,Todd Woodbridge,Winter Olympic Games 2026,Nine,False
+2026,Todd Woodbridge,Roland Garros 2025,Nine,False
+2026,Todd Woodbridge,Wimbledon 2025,Nine,False
+2026,Todd Woodbridge,US Open 2025,Nine,False
+2026,Todd Woodbridge,Cross Court,Nine,False

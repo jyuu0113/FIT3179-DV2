@@ -1,0 +1,80 @@
+edition,year,category,program,detail,is_winner,person,broadcaster,broadcaster_norm,genre
+2026-aacta-awards,2026,AACTA Award for Best Drama Series,The Newsreader,"Joanna Werner, Michael Lucas | Werner Film Productions / ABC",True,,ABC,ABC,Drama
+2026-aacta-awards,2026,AACTA Award for Best Narrative Comedy Series,Bump,"Dan Edwards, John Edwards, Claudia Karvan, Kelsey Munro | Roadshow Rough Diamond / Stan",True,,Stan,Stan,Comedy
+2026-aacta-awards,2026,AACTA Award for Best Comedy Entertainment Program,Hard Quiz,"Chris Walker, Kevin Whyte, Tom Gleeson, John Tabbagh | Thinkative Television / ABC",True,,ABC,ABC,Light Entertainment
+2026-aacta-awards,2026,AACTA Award for Best Entertainment Program presented by Gravity Media,Portrait Artist of the Year,"David McDonald, Kate Feely, Maria Handas | Endemol Shine Australia / ABC",True,,ABC,ABC,Reality
+2026-aacta-awards,2026,AACTA Award for Best Factual Entertainment Program,Alone Australia,"Beth Hart, Riima Daher, Joseph McMahon, Keely Sonntag | ITV Studios Australia / SBS",True,,SBS,SBS,Factual & Documentary
+2026-aacta-awards,2026,AACTA Award for Best Lifestyle Program,Grand Designs Australia,"Brooke Bayvel, Michael Collett | Eureka Productions / ABC",True,,ABC,ABC,Lifestyle & Food
+2026-aacta-awards,2026,AACTA Award for Best Reality Program presented by Network 10,The Great Australian Bake Off,"Emily Commens, Amanda Bainbridge, Deb Spinocchia, Kylie Washington | BBC Studios Productions Australia / Binge, Foxtel",True,,Binge,Binge,Lifestyle & Food
+2026-aacta-awards,2026,AACTA Award for Best Documentary or Factual Program,The People vs Robodebt,"Paula Bycroft, Michael Cordell, Andrew Farrell | CJZ / SBS",True,,SBS,SBS,Factual & Documentary
+2026-aacta-awards,2026,AACTA Award for Best Children’s Program,Play School: All Together,"Bryson Hall, Lyndal Mebberson | Australian Broadcasting Corporation / ABC",True,,ABC,ABC,Children's
+2026-aacta-awards,2026,AACTA Award for Best Acting in a Comedy,Miranda Tapsell,Top End Bub,True,,,Other,flag-person-or-parse
+2026-aacta-awards,2026,AACTA Award for Best Direction in Drama or Comedy,The Narrow Road to the Deep North – Episodes 1,Justin Kurzel,True,,,Other,Drama
+2026-aacta-awards,2026,AACTA Award for Best Direction in Nonfiction Television,The People vs Robodebt – Episode 2,Ben Lawrence,True,,,Other,Factual & Documentary
+2025-aacta-awards,2025,AACTA Award for Best Drama Series,Heartbreak High,"Carly Heaton, Sarah Freeman, Hannah Carroll Chapman | Fremantle Australia / Netflix",True,,Netflix,Netflix,Drama
+2025-aacta-awards,2025,AACTA Award for Best Narrative Comedy Series,Fisk,"Nicole Minchin, Kitty Flanagan, Vincent Sheehan, Tom Peterson | Origma 45 / ABC",True,,ABC,ABC,Comedy
+2025-aacta-awards,2025,AACTA Award for Best Comedy Entertainment Program,Hard Quiz,"Chris Walker, Kevin Whyte, Tom Gleeson, John Tabbagh | Thinkative Television and ABC / ABC",True,,ABC,ABC,Light Entertainment
+2025-aacta-awards,2025,AACTA Award for Best Entertainment Program presented by EMG/Gravity Media,Spicks and Specks,"Rowdie Walden, Michiko Smith, Anthony Watt | ABC / ABC",True,,ABC,ABC,Light Entertainment
+2025-aacta-awards,2025,AACTA Award for Best Factual Entertainment Program,Muster Dogs,"Monica O’Brien, Michael Boughen, Matthew Street | Ambience Entertainment Pty Ltd / ABC",True,,ABC,ABC,Reality
+2025-aacta-awards,2025,AACTA Award for Best Lifestyle Program,Grand Designs Australia,"Brooke Bayvel, Michael Collett | Fremantle Australia / ABC",True,,ABC,ABC,Lifestyle & Food
+2025-aacta-awards,2025,AACTA Award for Best Reality Program presented by Network 10,MasterChef Australia,"Marty Benson, Simon Child, Eoin Maher, April Mackay | Endemol Shine Australia / Network 10",True,,Network 10,Network 10,Reality
+2025-aacta-awards,2025,AACTA Award for Best Documentary or Factual Program,Miriam Margolyes Impossibly Australian,"Jo Siddiqui, Helen Barrow, Paulo Vivan, Laurie Critchley, Julie Hanna | Southern Pictures Pty Ltd / ABC",True,,ABC,ABC,Factual & Documentary
+2025-aacta-awards,2025,AACTA Award for Best Children’s Program,Bluey,"Joe Brumm, Charlie Aspinwall, Daley Pearson, Sam Moor | Ludo Studio / ABC",True,,ABC,ABC,Children's
+2025-aacta-awards,2025,AACTA Award for Best Acting in a Comedy,Kitty Flanagan,Fisk,True,,,Other,flag-person-or-parse
+2025-aacta-awards,2025,AACTA Award for Best Direction in Drama or Comedy,Boy Swallows Universe – Episode 1,Bharat Nalluri,True,,,Other,Drama
+2025-aacta-awards,2025,AACTA Award for Best Direction in Nonfiction Television,Muster Dogs – Episode 3,"Sally Browning, Monica O'Brien",True,,,Other,Reality
+2024-aacta-awards,2024,AACTA Award for Best Drama Series,The Newsreader,"Joanna Werner, Michael Lucas | Werner Film Productions / ABC",True,,ABC,ABC,Drama
+2024-aacta-awards,2024,AACTA Award for Best Narrative Comedy Series,Colin From Accounts,"Ian Collie, Rob Gibson, Patrick Brammall, Harriet Dyer | Easy Tiger / Binge, Foxtel",True,,Binge,Binge,Comedy
+2024-aacta-awards,2024,AACTA Award for Best Comedy Entertainment Program,Hard Quiz,"Chris Walker, Kevin Whyte, Tom Gleeson, John Tabbagh | Thinkative Television and ABC / ABC",True,,ABC,ABC,Light Entertainment
+2024-aacta-awards,2024,AACTA Award for Best Entertainment Program,Eurovision Song Contest 2023 - Grand Final,"Paul Clarke, Emily Griggs | Blink TV Production Pty Ltd / SBS",True,,SBS,SBS,Light Entertainment
+2024-aacta-awards,2024,AACTA Award for Best Factual Entertainment Program,Old People's Home for Teenagers,"Tony De La Pena, Tara McWilliams, Emily Potts | Endemol Shine Australia / ABC",True,,ABC,ABC,Factual & Documentary
+2024-aacta-awards,2024,AACTA Award for Best Lifestyle Program,Gardening Australia,Gill Lomas | ABCTV / ABC,True,,ABC,ABC,Factual & Documentary
+2024-aacta-awards,2024,AACTA Award for Best Reality Program,MasterChef Australia,"David Forster, Simon Child, Eoin Maher, April Mackay | Endemol Shine Australia / Network Ten",True,,Network Ten,Ten,Reality
+2024-aacta-awards,2024,AACTA Award for Best Documentary or Factual Program,The Australian Wars,"Darren Dale, Rachel Perkins, Belinda Mravicic | Blackfella Films Pty Ltd / NITV, SBS",True,,NITV,NITV,Factual & Documentary
+2024-aacta-awards,2024,AACTA Award for Best Children’s Program,Bluey,"Joe Brumm, Charlie Aspinwall, Sam Moor, Daley Pearson | Ludo Studio / ABC",True,,ABC,ABC,Children's
+2024-aacta-awards,2024,AACTA Award for Best Acting in a Comedy,Kate Box,Deadloch,True,,,Other,Drama
+2024-aacta-awards,2024,AACTA Award for Best Direction in Drama or Comedy,The Newsreader - Episode 4,Emma Freeman,True,,,Other,Drama
+2024-aacta-awards,2024,AACTA Award for Best Direction in Nonfiction Television,The Australian Wars - Episode 1,"Rachel Perkins, Dylan River, Tov Belling",True,,,Other,Factual & Documentary
+2023-aacta-awards,2023,AACTA Award for Best Drama Series,The Newsreader,"Joanna Werner, Michael Lucas | Werner Film Productions / ABC",True,,ABC,ABC,Drama
+2023-aacta-awards,2023,AACTA Award for Best Narrative Comedy Series,Bump,"Dan Edwards, John Edwards, Claudia Karvan, Kelsey Munro | Roadshow Rough Diamond / Stan",True,,Stan,Stan,Comedy
+2023-aacta-awards,2023,AACTA Award for Best Comedy Entertainment Program,Hard Quiz,"Chris Walker, Kevin Whyte, Tom Gleeson, John Tabbagh | Thinkative Television / ABC",True,,ABC,ABC,Light Entertainment
+2023-aacta-awards,2023,AACTA Award for Best Entertainment Program presented by Gravity Media,Portrait Artist of the Year,"David McDonald, Kate Feely, Maria Handas | Endemol Shine Australia / ABC",True,,ABC,ABC,Reality
+2023-aacta-awards,2023,AACTA Award for Best Factual Entertainment Program,Alone Australia,"Beth Hart, Riima Daher, Joseph McMahon, Keely Sonntag | ITV Studios Australia / SBS",True,,SBS,SBS,Factual & Documentary
+2023-aacta-awards,2023,AACTA Award for Best Lifestyle Program,Grand Designs Australia,"Brooke Bayvel, Michael Collett | Eureka Productions / ABC",True,,ABC,ABC,Lifestyle & Food
+2023-aacta-awards,2023,AACTA Award for Best Reality Program presented by Network 10,The Great Australian Bake Off,"Emily Commens, Amanda Bainbridge, Deb Spinocchia, Kylie Washington | BBC Studios Productions Australia / Binge, Foxtel",True,,Binge,Binge,Lifestyle & Food
+2023-aacta-awards,2023,AACTA Award for Best Documentary or Factual Program,The People vs Robodebt,"Paula Bycroft, Michael Cordell, Andrew Farrell | CJZ / SBS",True,,SBS,SBS,Factual & Documentary
+2023-aacta-awards,2023,AACTA Award for Best Children’s Program,Play School: All Together,"Bryson Hall, Lyndal Mebberson | Australian Broadcasting Corporation / ABC",True,,ABC,ABC,Children's
+2023-aacta-awards,2023,AACTA Award for Best Acting in a Comedy,Miranda Tapsell,Top End Bub,True,,,Other,flag-person-or-parse
+2023-aacta-awards,2023,AACTA Award for Best Direction in Drama or Comedy,The Narrow Road to the Deep North – Episodes 1,Justin Kurzel,True,,,Other,Drama
+2023-aacta-awards,2023,AACTA Award for Best Direction in Nonfiction Television,The People vs Robodebt – Episode 2,Ben Lawrence,True,,,Other,Factual & Documentary
+2022-aacta-awards,2022,AACTA Award for Best Drama Series,Mystery Road: Origin,"Greer Simpkin, David Jowsey | Bunya Productions / ABC",True,,ABC,ABC,Drama
+2022-aacta-awards,2022,AACTA Award for Best Comedy Program,Shaun Micallef's Mad as Hell,"Peter Beck, Beth Hart, Shaun Micallef | ITV Studios Australia / ABC",True,,ABC,ABC,Comedy
+2022-aacta-awards,2022,AACTA Award for Best Entertainment Program,LEGO® Masters Australia,"David McDonald, Di Yang, AJ Johnson | Endemol Shine Australia / Nine Network",True,,Nine Network,Nine,Reality
+2022-aacta-awards,2022,AACTA Award for Best Factual Entertainment Program,Old People's Home for Teenagers,"Debbie Cuell, Tony De La Pena, Paulo Vivan, Brooke Hulsman | Endemol Shine Australia / ABC",True,,ABC,ABC,Factual & Documentary
+2022-aacta-awards,2022,AACTA Award for Best Lifestyle Program,Gardening Australia,Gill Lomas | Australian Broadcasting Corporation / ABC,True,,ABC,ABC,Factual & Documentary
+2022-aacta-awards,2022,AACTA Award for Best Reality Program,MasterChef Australia,"David Forster, Eoin Maher, Simon Child | Endemol Shine Australia / Network 10",True,,Network 10,Network 10,Reality
+2022-aacta-awards,2022,AACTA Award for Best Documentary or Factual Program,Miriam Margolyes Australia Unmasked,"Laurie Critchley, Bethan Arwel-Lewis | Southern Pictures / ABC",True,,ABC,ABC,Factual & Documentary
+2022-aacta-awards,2022,AACTA Award for Best Children's Program,Bluey,"Charlie Aspinwall, Sam Moor, Daley Pearson | Ludo Studio / ABC",True,,ABC,ABC,Children's
+2022-aacta-awards,2022,AACTA Award for Best Direction in Drama or Comedy,Mystery Road: Origin - Episode 3,Dylan River,True,,,Other,Drama
+2022-aacta-awards,2022,AACTA Award for Best Direction in Nonfiction Television,You Can't Ask That - Episode 1,Kirk Docker,True,,,Other,Factual & Documentary
+2021-aacta-awards,2021,AACTA Award for Best Drama Series,The Newsreader,"Joanna Werner, Michael Lucas | Werner Film Productions Pty Ltd / ABC",True,,ABC,ABC,Drama
+2021-aacta-awards,2021,AACTA Award for Best Narrative Comedy Series,Fisk,Vincent Sheehan | Porchlight Films Pty Ltd / ABC,True,,ABC,ABC,Comedy
+2021-aacta-awards,2021,AACTA Award for Best Comedy Entertainment Program,Hard Quiz,"Kevin Whyte, Chris Walker, Tom Gleeson, John Tabbagh | Thinkative Television & ABC / ABC",True,,ABC,ABC,Light Entertainment
+2021-aacta-awards,2021,AACTA Award for Best Entertainment Program,Sydney Gay and Lesbian Mardi Gras 2021,"Paul	Clarke, Stephanie Werrett, Josh Martin | Blink TV / SBS",True,,SBS,SBS,Light Entertainment
+2021-aacta-awards,2021,AACTA Award for Best Factual Entertainment Program,Love on the Spectrum,"Jenni Wilks, Karina Holden, Cian O'Clery | Northern Pictures / ABC",True,,ABC,ABC,Reality
+2021-aacta-awards,2021,AACTA Award for Best Lifestyle Program,Grand Designs Australia,"Michael O'Neill, Brooke Bayvel | Fremantle / Foxtel",True,,Foxtel,Foxtel,Lifestyle & Food
+2021-aacta-awards,2021,AACTA Award for Best Reality Program,MasterChef Australia,"Marty Benson, Adam Fergusson, Eoin Maher | Endemol Shine Australia / Network Ten",True,,Network Ten,Ten,Reality
+2021-aacta-awards,2021,AACTA Award for Best Documentary or Factual Program,Old People's Home For 4 Year Olds,"Debbie Cuell, Bethan Arwel-Lewis | Endemol Shine Australia / ABC",True,,ABC,ABC,Factual & Documentary
+2021-aacta-awards,2021,AACTA Award for Best Children's Program,Bluey,"Charlie Aspinwall, Joe Brumm, Daley Pearson, Sam Moor | Ludo Studio / ABC",True,,ABC,ABC,Children's
+2021-aacta-awards,2021,AACTA Award for Best Direction in Drama or Comedy,"The Newsreader - Episode 1: Three, Two, One...",Emma Freeman,True,,,Other,Drama
+2021-aacta-awards,2021,AACTA Award for Best Direction in Nonfiction Television,Love on the Spectrum - Episode 4,Cian	O'Clery,True,,,Other,Reality
+2020-aacta-awards,2020,AACTA Award for Best Drama Series,Mystery Road,"David Jowsey, Greer Simpkin | Bunya Productions / ABC",True,,ABC,ABC,Drama
+2020-aacta-awards,2020,AACTA Award for Best Comedy Series,Upright,"Jason Stephens, Helen Bowden, Melissa Kelly, Chris Taylor, Tim Minchin | Lingo Pictures / Foxtel",True,,Foxtel,Foxtel,Drama
+2020-aacta-awards,2020,AACTA Award for Best Comedy Entertainment Program,Shaun Micallef's Mad As Hell,"Shaun Micallef, Peter Beck, Gary McCaffrie | ITV Studios Australia, Giant Baby Productions / ABC",True,,ABC,ABC,Comedy
+2020-aacta-awards,2020,AACTA Award for Best Entertainment Program,Have You Been Paying Attention?,"Santo Cilauro, Tom Gleisner, Michael Hirsh, Rob Sitch | Working Dog Productions / Network Ten",True,,Network Ten,Ten,Light Entertainment
+2020-aacta-awards,2020,AACTA Award for Best Factual Entertainment Program,Gogglebox Australia,"Howard Myers, David McDonald, Kerrie Kerr | Endemol Shine Australia, Network Ten, Foxtel / Foxtel / Network Ten",True,,Network Ten,Ten,Reality
+2020-aacta-awards,2020,AACTA Award for Best Lifestyle Program,The Living Room,"Sarah Thornton, Caroline Spencer, Nicole Rogers, Ciarran Flannery | Network Ten / Network Ten",True,,Network Ten,Ten,Lifestyle & Food
+2020-aacta-awards,2020,AACTA Award for Best Reality Program,Masterchef Australia,"Marty Benson, Adam Fergusson | Endemol Shine Australia / Network Ten",True,,Network Ten,Ten,Reality
+2020-aacta-awards,2020,AACTA Award for Best Children's Program,Bluey,"Joe Brumm, Charlie Aspinwall, Sam Moor, Daley Pearson | Ludo Studio / ABC",True,,ABC,ABC,Children's
+2020-aacta-awards,2020,AACTA Award for Best Direction in a Television Drama or Comedy,Stateless – Episode 1: The Circumstances in Which They Come,Emma Freeman,True,,,Other,Drama
+2020-aacta-awards,2020,AACTA Award for Best Direction in Nonfiction Television,Maralinga Tjarutja,Larissa Behrendt,True,,,Other,Drama

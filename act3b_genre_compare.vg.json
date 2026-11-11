@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 641,
+  "height": 300,
+  "data": {
+    "url": "data/genre_compare.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.system == 'AACTA (peer-voted)' ? datum.count : -datum.count",
+      "as": "signed"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 1
+  },
+  "encoding": {
+    "y": {
+      "field": "genre",
+      "type": "nominal",
+      "sort": [
+        "Drama",
+        "Comedy",
+        "Reality",
+        "Light Entertainment",
+        "Factual & Documentary",
+        "Children's",
+        "Lifestyle & Food",
+        "Sport",
+        "News & Current Affairs"
+      ],
+      "axis": {
+        "title": null,
+        "labelFontSize": 12,
+        "labelLimit": 200
+      }
+    },
+    "x": {
+      "field": "signed",
+      "type": "quantitative",
+      "axis": {
+        "title": "\u2190 Logie wins (viewers)   |   AACTA wins (peers) \u2192",
+        "values": [-12, -8, -4, 0, 4, 8, 12, 16],
+        "labelExpr": "abs(datum.value)",
+        "grid": true,
+        "gridColor": "#eee5d8",
+        "domain": false,
+        "ticks": false
+      }
+    },
+    "color": {
+      "field": "system",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Logies (viewer-voted)", "AACTA (peer-voted)"],
+        "range": ["#b8860b", "#1f6f6b"]
+      },
+      "legend": {
+        "title": null,
+        "orient": "top"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "system",
+        "title": "Award system"
+      },
+      {
+        "field": "genre",
+        "title": "Genre"
+      },
+      {
+        "field": "count",
+        "title": "Winning programs"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

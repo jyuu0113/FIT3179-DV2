@@ -1,0 +1,154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 707,
+  "height": 180,
+  "data": {
+    "url": "data/gold_logie_network_years.csv"
+  },
+  "encoding": {
+    "y": {
+      "field": "network",
+      "type": "nominal",
+      "sort": ["Nine", "Seven", "Ten", "ABC"],
+      "axis": {
+        "title": null,
+        "labelFontSize": 12,
+        "labelExpr": "{'Nine':'Nine Network','Seven':'Seven Network','Ten':'Network 10','ABC':'ABC'}[datum.value]"
+      }
+    },
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "scale": {
+        "domain": [1959, 2027],
+        "zero": false
+      },
+      "axis": {
+        "format": "d",
+        "grid": true,
+        "gridColor": "#eee5d8",
+        "title": "Year of ceremony (bars show each winning year; joint years can occupy two networks)",
+        "labelFontSize": 11
+      }
+    },
+    "color": {
+      "field": "network",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Nine", "Seven", "Ten", "ABC"],
+        "range": ["#1b3a6b", "#c0392b", "#7d3c98", "#167a6a"]
+      },
+      "legend": {
+        "orient": "top",
+        "columns": 4,
+        "title": null,
+        "labelFontSize": 11,
+        "labelExpr": "{'Nine':'Nine Network','Seven':'Seven Network','Ten':'Network 10','ABC':'ABC'}[datum.label]"
+      }
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "a": 2020,
+            "b": 2021.9,
+            "label": "no ceremony (COVID)"
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": "#e8e2d6",
+        "opacity": 0.9
+      },
+      "encoding": {
+        "x": {
+          "field": "a",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "b"
+        },
+        "tooltip": [
+          {
+            "field": "status",
+            "title": "2020\u201321"
+          }
+        ]
+      },
+      "transform": [
+        {
+          "calculate": "'Not Hosted - no ceremony held (COVID-19 pandemic)'",
+          "as": "status"
+        }
+      ]
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 2020.95,
+            "label": "no ceremony"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "angle": 270,
+        "fontSize": 9,
+        "color": "#8a8072",
+        "dy": -8
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        },
+        "y": {
+          "value": 155
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "bar",
+        "height": 14
+      },
+      "encoding": {
+        "x2": {
+          "field": "next_year"
+        },
+        "tooltip": [
+          {
+            "field": "network",
+            "title": "Network"
+          },
+          {
+            "field": "year",
+            "title": "Gold Logie year"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+year,category,person,program,network,is_winner,item_type,winner_item,winner_name,genre
+1985,Most Popular Australian Drama Program,A Country Practice (Seven Network),,,True,program,A Country Practice (Seven Network),,Drama
+1985,Most Popular Australian Variety Program,The Mike Walsh Show (Nine Network),,,True,program,The Mike Walsh Show (Nine Network),,Light Entertainment
+1985,Most Popular Australian Comedy Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1987,Most Popular Australian Drama Series,Neighbours (Network Ten),,,True,program,Neighbours (Network Ten),,Drama
+1987,Most Popular Light Entertainment Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1987,Most Popular Single Drama or Miniseries,Sword of Honour (Seven Network),,,True,program,Sword of Honour (Seven Network),,Drama
+1990,Most Popular Series,Neighbours (Network Ten),,,True,program,Neighbours (Network Ten),,Drama
+1990,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+1990,Most Popular Telemovie or Miniseries,Bangkok Hilton (Network Ten),,,True,program,Bangkok Hilton (Network Ten),,Drama
+1991,Most Popular Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+1991,Most Popular Light Entertainment or Comedy Program,Fast Forward (Seven Network),,,True,program,Fast Forward (Seven Network),,Light Entertainment
+1991,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+1993,Most Popular Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+1993,Most Popular Comedy Program,Fast Forward (Seven Network),,,True,program,Fast Forward (Seven Network),,Light Entertainment
+1993,Most Popular Light Entertainment Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1993,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+1993,Most Popular Telemovie or Miniseries,Tracks of Glory (Seven Network),,,True,program,Tracks of Glory (Seven Network),,Drama
+1995,Most Popular Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+1995,Most Popular Light Entertainment Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1995,Most Popular Comedy Program,Full Frontal (Seven Network),,,True,program,Full Frontal (Seven Network),,Comedy
+1995,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+1996,Most Popular Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+1996,Most Popular Drama,Police Rescue (ABC),,,True,program,Police Rescue (ABC),,Drama
+1996,Most Popular Comedy Program,Full Frontal (Seven Network),,,True,program,Full Frontal (Seven Network),,Comedy
+1996,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+1998,Most Popular Series,Blue Heelers (Seven Network),,,True,program,Blue Heelers (Seven Network),,Drama
+1998,Most Popular Light Entertainment Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1998,Most Popular Comedy Program,Full Frontal (Seven Network),,,True,program,Full Frontal (Seven Network),,Comedy
+1998,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+1998,Most Outstanding Mini-series or Movie Made for Television,Wildside (ABC TV),,,True,program,Wildside (ABC TV),,Drama
+1999,Most Popular Program,Blue Heelers (Seven Network),,,True,program,Blue Heelers (Seven Network),,Drama
+1999,Most Popular Light Entertainment Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1999,Most Popular Comedy Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+1999,Most Outstanding Drama Series,SeaChange (ABC TV),,,True,program,SeaChange (ABC TV),,Drama
+2000,Most Popular Program,Blue Heelers (Seven Network),,,True,program,Blue Heelers (Seven Network),,Drama
+2000,Most Popular Comedy or Light Entertainment Program,Hey Hey It's Saturday (Nine Network),,,True,program,Hey Hey It's Saturday (Nine Network),,Light Entertainment
+2000,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+2000,Most Outstanding Drama Series,SeaChange (ABC TV),,,True,program,SeaChange (ABC TV),,Drama
+2001,Most Popular Program,All Saints (Seven Network),,,True,program,All Saints (Seven Network),,Drama
+2001,Most Popular Lifestyle Program,Backyard Blitz (Nine Network),,,True,program,Backyard Blitz (Nine Network),,Factual & Documentary
+2001,Most Popular Public Affairs Program,A Current Affair (Nine Network),,,True,program,A Current Affair (Nine Network),,News & Current Affairs
+2001,Most Outstanding Drama Series,SeaChange (ABC TV),,,True,program,SeaChange (ABC TV),,Drama
+2002,Most Popular Program,All Saints (Seven Network),,,True,program,All Saints (Seven Network),,Drama
+2002,Most Popular Light Entertainment Program,Rove (Live) (Network Ten),,,True,program,Rove (Live) (Network Ten),,Light Entertainment
+2002,Most Popular Lifestyle Program,Backyard Blitz (Nine Network),,,True,program,Backyard Blitz (Nine Network),,Factual & Documentary
+2002,Most Popular Reality Program,Big Brother (Network Ten),,,True,program,Big Brother (Network Ten),,Reality
+2002,Most Outstanding Drama Series,The Secret Life of Us (Network Ten),,,True,program,The Secret Life of Us (Network Ten),,Drama
+2003,Most Popular Australian Program,All Saints (Seven Network),,,True,program,All Saints (Seven Network),,Drama
+2003,Most Popular Light Entertainment or Comedy Program,Rove (Live) (Network Ten),,,True,program,Rove (Live) (Network Ten),,Light Entertainment
+2003,Most Popular Lifestyle Program,Backyard Blitz (Nine Network),,,True,program,Backyard Blitz (Nine Network),,Factual & Documentary
+2003,Most Popular Overseas Program,Friends (Nine Network),,,True,program,Friends (Nine Network),,flag-overseas-star
+2003,Most Outstanding Drama Series,The Secret Life of Us (Network Ten),,,True,program,The Secret Life of Us (Network Ten),,Drama
+2004,Most Popular Australian Drama Series,McLeod's Daughters (Nine Network),,,True,program,McLeod's Daughters (Nine Network),,Drama
+2004,Most Popular Light Entertainment or Comedy Program,Rove (Live) (Network Ten),,,True,program,Rove (Live) (Network Ten),,Light Entertainment
+2004,Most Popular Reality Program,Australian Idol (Network Ten),,,True,program,Australian Idol (Network Ten),,Reality
+2004,Most Popular Lifestyle Program,Backyard Blitz (Nine Network),,,True,program,Backyard Blitz (Nine Network),,Factual & Documentary
+2004,Most Popular Australian Program,McLeod's Daughters (Nine Network),,,True,program,McLeod's Daughters (Nine Network),,Drama
+2004,Most Popular Overseas Comedy,Friends (Nine Network),,,True,program,Friends (Nine Network),,flag-overseas-star
+2004,Most Outstanding Drama Series,The Secret Life of Us (Network Ten),,,True,program,The Secret Life of Us (Network Ten),,Drama
+2004,Most Outstanding Mini Series or Telemovie,After the Deluge (Network Ten),,,True,program,After the Deluge (Network Ten),,Drama
+2005,Most Popular Australian Drama Series,McLeod's Daughters (Nine Network),,,True,program,McLeod's Daughters (Nine Network),,Drama
+2005,Most Popular Light Entertainment or Comedy Program,Rove (Live) (Network Ten),,,True,program,Rove (Live) (Network Ten),,Light Entertainment
+2005,Most Popular Lifestyle Program,Backyard Blitz (Nine Network),,,True,program,Backyard Blitz (Nine Network),,Factual & Documentary
+2005,Most Popular Reality Program,Australian Idol (Network Ten),,,True,program,Australian Idol (Network Ten),,Reality
+2005,Most Outstanding Mini Series or Telemovie,Jessica (Network Ten),,,True,program,Jessica (Network Ten),,Drama
+2006,Most Popular Australian Drama Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2006,Most Popular Light Entertainment or Comedy Program,Dancing with the Stars (Seven Network),,,True,program,Dancing with the Stars (Seven Network),,Reality
+2006,Most Popular Lifestyle Program,Backyard Blitz (Nine Network),,,True,program,Backyard Blitz (Nine Network),,Factual & Documentary
+2006,Most Popular Reality Program,Australian Idol (Network Ten),,,True,program,Australian Idol (Network Ten),,Reality
+2006,Most Outstanding Comedy Program,We Can Be Heroes: Finding The Australian of the Year (ABC TV),,,True,program,We Can Be Heroes: Finding The Australian of the Year (ABC TV),,Comedy
+2007,Most Popular Australian Drama Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2007,Most Popular Light Entertainment Program,Rove Live (Network Ten),,,True,program,Rove Live (Network Ten),,Light Entertainment
+2007,Most Popular Reality Program,Dancing with the Stars (Seven Network),,,True,program,Dancing with the Stars (Seven Network),,Reality
+2008,Most Popular Australian Drama Series,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2008,Most Popular Reality Program,Dancing with the Stars (Seven Network),,,True,program,Dancing with the Stars (Seven Network),,Reality
+2008,Most Outstanding Comedy Program,Summer Heights High (ABC1),,,True,program,Summer Heights High (ABC1),,Comedy
+2009,Most Popular Drama Series,Packed to the Rafters (Seven Network),,,True,program,Packed to the Rafters (Seven Network),,Drama
+2009,"Most Outstanding Drama Series, Miniseries or Telemovie",Underbelly (Nine Network),,,True,program,Underbelly (Nine Network),,Drama
+2010,Most Popular Drama Series,Packed to the Rafters (Seven Network),,,True,program,Packed to the Rafters (Seven Network),,Drama
+2010,Most Popular Light Entertainment Program,Talkin' 'Bout Your Generation (Network Ten),,,True,program,Talkin' 'Bout Your Generation (Network Ten),,Light Entertainment
+2010,Most Popular Reality Program,MasterChef Australia (Network Ten),,,True,program,MasterChef Australia (Network Ten),,Reality
+2010,"Most Outstanding Drama Series, Miniseries or Telemovie",East West 101 (SBS),,,True,program,East West 101 (SBS),,Drama
+2010,Most Outstanding Light Entertainment,Talkin' 'Bout Your Generation (Network Ten),,,True,program,Talkin' 'Bout Your Generation (Network Ten),,Light Entertainment
+2011,Most Popular Drama Series,Packed to the Rafters (Seven Network),,,True,program,Packed to the Rafters (Seven Network),,Drama
+2011,Most Popular Light Entertainment Program,The Circle (Network Ten),,,True,program,The Circle (Network Ten),,Light Entertainment
+2011,Most Popular Reality Program,MasterChef Australia (Network Ten),,,True,program,MasterChef Australia (Network Ten),,Reality
+2011,"Most Outstanding Drama Series, Miniseries or Telemovie",Underbelly: The Golden Mile (Nine Network),,,True,program,Underbelly: The Golden Mile (Nine Network),,Drama
+2011,Most Outstanding Light Entertainment Program,Spicks and Specks (ABC1),,,True,program,Spicks and Specks (ABC1),,Light Entertainment
+2012,Most Popular Drama Series,Packed to the Rafters (Seven Network),,,True,program,Packed to the Rafters (Seven Network),,Drama
+2012,Most Popular Light Entertainment Program,Hamish and Andy's Gap Year (Nine Network),,,True,program,Hamish and Andy's Gap Year (Nine Network),,Light Entertainment
+2012,Most Popular Reality Program,The Block (Nine Network),,,True,program,The Block (Nine Network),,Reality
+2012,"Most Outstanding Drama Series, Miniseries or Telemovie",The Slap (ABC1),,,True,program,The Slap (ABC1),,Drama
+2012,Most Outstanding Light Entertainment Program,Spicks and Specks (ABC1),,,True,program,Spicks and Specks (ABC1),,Light Entertainment
+2013,Most Popular Light Entertainment Program,The Voice (Nine Network),,,True,program,The Voice (Nine Network),,Reality
+2013,Most Popular Reality Program,The Block (Nine Network),,,True,program,The Block (Nine Network),,Reality
+2013,Most Outstanding Drama Series,Redfern Now (ABC1),,,True,program,Redfern Now (ABC1),,Drama
+2014,Most Popular Drama Program,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2014,Most Outstanding Drama Series,Redfern Now (ABC1),,,True,program,Redfern Now (ABC1),,Drama
+2015,Most Popular Drama Program,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2015,Most Popular Reality Program,The Block (Nine Network),,,True,program,The Block (Nine Network),,Reality
+2015,Most Popular Lifestyle Program,The Living Room (Network Ten),,,True,program,The Living Room (Network Ten),,Lifestyle & Food
+2015,Most Outstanding Entertainment Program,The Voice (Nine Network),,,True,program,The Voice (Nine Network),,Reality
+2016,Most Outstanding Miniseries or Telemovie,The Secret River (ABC),,,True,program,The Secret River (ABC),,Drama
+2016,Most Outstanding Comedy Program,Shaun Micallef's Mad as Hell (ABC),,,True,program,Shaun Micallef's Mad as Hell (ABC),,Comedy
+2017,Most Outstanding Entertainment Program,Have You Been Paying Attention? (Network Ten),,,True,program,Have You Been Paying Attention? (Network Ten),,Light Entertainment
+2017,Most Outstanding Comedy Program,Please Like Me (ABC),,,True,program,Please Like Me (ABC),,Comedy
+2018,Most Popular Entertainment Program,Gogglebox Australia (Foxtel/Network Ten),,,True,program,Gogglebox Australia (Foxtel/Network Ten),,Reality
+2018,Most Popular Reality Program,The Block (Nine Network),,,True,program,The Block (Nine Network),,Reality
+2018,Most Popular Lifestyle Program,The Living Room (Network Ten),,,True,program,The Living Room (Network Ten),,Lifestyle & Food
+2018,Most Popular Comedy Program,Have You Been Paying Attention? (Network Ten),,,True,program,Have You Been Paying Attention? (Network Ten),,Light Entertainment
+2019,Most Popular Drama Program,Mystery Road (ABC),,,True,program,Mystery Road (ABC),,Drama
+2019,Most Popular Entertainment Program,Gogglebox Australia (Foxtel/Network Ten),,,True,program,Gogglebox Australia (Foxtel/Network Ten),,Reality
+2019,Most Popular Reality Program,MasterChef Australia (Network Ten),,,True,program,MasterChef Australia (Network Ten),,Reality
+2019,Most Popular Lifestyle Program,Gardening Australia (ABC),,,True,program,Gardening Australia (ABC),,Factual & Documentary
+2019,Most Popular Comedy Program,Have You Been Paying Attention? (Network Ten),,,True,program,Have You Been Paying Attention? (Network Ten),,Light Entertainment
+2019,Most Popular Panel or Current Affairs Program,The Project (Network Ten),,,True,program,The Project (Network Ten),,Light Entertainment
+2019,Most Outstanding Entertainment Program,Have You Been Paying Attention? (Network Ten),,,True,program,Have You Been Paying Attention? (Network Ten),,Light Entertainment
+2019,Most Outstanding Children's Program,Bluey (ABC),,,True,program,Bluey (ABC),,Children's
+2022,Most Popular Drama Program,Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2022,Most Popular Entertainment Program,Gogglebox Australia (Foxtel/Network 10),,,True,program,Gogglebox Australia (Foxtel/Network 10),,Reality
+2022,Most Popular Reality Program,MasterChef Australia (Network 10),,,True,program,MasterChef Australia (Network 10),,Reality
+2022,Most Popular Comedy Program,Have You Been Paying Attention? (Network 10),,,True,program,Have You Been Paying Attention? (Network 10),,Light Entertainment
+2022,Most Popular Panel or Current Affairs Program,The Project (Network 10),,,True,program,The Project (Network 10),,Light Entertainment
+2022,Most Outstanding Drama Series,The Newsreader (ABC),,,True,program,The Newsreader (ABC),,Drama
+2022,Most Outstanding Miniseries or Telemovie,Fires (ABC),,,True,program,Fires (ABC),,Drama
+2022,Most Outstanding Reality Program,I'm a Celebrity...Get Me Out of Here! (Network 10),,,True,program,I'm a Celebrity...Get Me Out of Here! (Network 10),,Reality
+2022,Most Outstanding Entertainment or Comedy Program,Lego Masters (Nine Network),,,True,program,Lego Masters (Nine Network),,Reality
+2022,Most Outstanding Children's Program,Bluey (ABC),,,True,program,Bluey (ABC),,Children's
+2023,"Most Popular Drama Series, Miniseries or Telemovie",Home and Away (Seven Network),,,True,program,Home and Away (Seven Network),,Drama
+2023,Most Popular Entertainment Program,Gogglebox Australia (Foxtel/Network 10),,,True,program,Gogglebox Australia (Foxtel/Network 10),,Reality
+2023,Most Popular Comedy Program,Have You Been Paying Attention? (Network 10),,,True,program,Have You Been Paying Attention? (Network 10),,Light Entertainment
+2023,Most Outstanding Factual or Documentary Program,The Australian Wars (SBS),,,True,program,The Australian Wars (SBS),,Factual & Documentary

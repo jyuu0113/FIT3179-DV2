@@ -1,0 +1,297 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 680,
+  "height": 540,
+  "data": {
+    "url": "data/australian-states.json",
+    "format": { "property": "features", "type": "json" }
+  },
+  "projection": { "type": "mercator", "center": [133.5, -28.4], "scale": 800 },
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "fill": "#efe9df",
+        "stroke": "#c9c2b8",
+        "strokeWidth": 1
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "person": "Bobby Limb",
+            "birthplace": "Adelaide",
+            "state": "SA",
+            "lon": 138.9354,
+            "lat": -34.9275,
+            "city_size": 2
+          },
+          {
+            "person": "Carrie Bickmore",
+            "birthplace": "Adelaide",
+            "state": "SA",
+            "lon": 138.1716,
+            "lat": -34.6058,
+            "city_size": 2
+          },
+          {
+            "person": "Grant Denyer",
+            "birthplace": "Coffs Harbour",
+            "state": "NSW",
+            "lon": 153.5693,
+            "lat": -30.3023,
+            "city_size": 1
+          },
+          {
+            "person": "Karl Stefanovic",
+            "birthplace": "Darlinghurst",
+            "state": "NSW",
+            "lon": 151.6876,
+            "lat": -33.8792,
+            "city_size": 1
+          },
+          {
+            "person": "Ernie Sigley",
+            "birthplace": "Footscray",
+            "state": "VIC",
+            "lon": 145.3912,
+            "lat": -37.798,
+            "city_size": 1
+          },
+          {
+            "person": "Barry Crocker",
+            "birthplace": "Geelong",
+            "state": "VIC",
+            "lon": 144.6997,
+            "lat": -38.15,
+            "city_size": 2
+          },
+          {
+            "person": "Daryl Somers",
+            "birthplace": "Geelong",
+            "state": "VIC",
+            "lon": 143.9034,
+            "lat": -37.8283,
+            "city_size": 2
+          },
+          {
+            "person": "Kate Ritchie",
+            "birthplace": "Goulburn",
+            "state": "NSW",
+            "lon": 150.192,
+            "lat": -34.7547,
+            "city_size": 1
+          },
+          {
+            "person": "Tom Gleeson",
+            "birthplace": "Gunnedah",
+            "state": "NSW",
+            "lon": 150.7047,
+            "lat": -30.9817,
+            "city_size": 1
+          },
+          {
+            "person": "Asher Keddie",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 145.1272,
+            "lat": -37.8142,
+            "city_size": 9
+          },
+          {
+            "person": "Denise Drysdale",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 144.7535,
+            "lat": -37.6625,
+            "city_size": 9
+          },
+          {
+            "person": "Graham Kennedy",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 144.9951,
+            "lat": -38.1029,
+            "city_size": 9
+          },
+          {
+            "person": "Hamish Blake",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 145.2272,
+            "lat": -37.542,
+            "city_size": 9
+          },
+          {
+            "person": "Jana Wendt",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 144.4783,
+            "lat": -37.8819,
+            "city_size": 9
+          },
+          {
+            "person": "Kylie Minogue",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 145.4223,
+            "lat": -38.0449,
+            "city_size": 9
+          },
+          {
+            "person": "Larry Emdur",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 144.8095,
+            "lat": -37.3628,
+            "city_size": 9
+          },
+          {
+            "person": "Pat McDonald",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 144.6701,
+            "lat": -38.2597,
+            "city_size": 9
+          },
+          {
+            "person": "Waleed Aly",
+            "birthplace": "Melbourne",
+            "state": "VIC",
+            "lon": 145.5986,
+            "lat": -37.6308,
+            "city_size": 9
+          },
+          {
+            "person": "Lorrae Desmond",
+            "birthplace": "Mittagong",
+            "state": "NSW",
+            "lon": 150.9227,
+            "lat": -34.4483,
+            "city_size": 1
+          },
+          {
+            "person": "Lynne McGranger",
+            "birthplace": "Paddington",
+            "state": "NSW",
+            "lon": 151.6945,
+            "lat": -33.8848,
+            "city_size": 1
+          },
+          {
+            "person": "Maggie Tabberer",
+            "birthplace": "Parkside",
+            "state": "SA",
+            "lon": 139.0874,
+            "lat": -34.944,
+            "city_size": 1
+          },
+          {
+            "person": "Gerard Kennedy",
+            "birthplace": "Perth",
+            "state": "WA",
+            "lon": 116.1244,
+            "lat": -31.9558,
+            "city_size": 3
+          },
+          {
+            "person": "Lisa McCune",
+            "birthplace": "Perth",
+            "state": "WA",
+            "lon": 115.5217,
+            "lat": -31.6931,
+            "city_size": 3
+          },
+          {
+            "person": "Rove McManus",
+            "birthplace": "Perth",
+            "state": "WA",
+            "lon": 115.9115,
+            "lat": -32.456,
+            "city_size": 3
+          },
+          {
+            "person": "Steve Vizard",
+            "birthplace": "Richmond",
+            "state": "NSW",
+            "lon": 145.4903,
+            "lat": -37.823,
+            "city_size": 1
+          },
+          {
+            "person": "Ray Meagher",
+            "birthplace": "Roma",
+            "state": "QLD",
+            "lon": 149.2348,
+            "lat": -26.55,
+            "city_size": 1
+          },
+          {
+            "person": "Jimmy Hannan",
+            "birthplace": "Surry Hills",
+            "state": "NSW",
+            "lon": 151.6796,
+            "lat": -33.8861,
+            "city_size": 1
+          },
+          {
+            "person": "Georgie Parker",
+            "birthplace": "Sydney",
+            "state": "NSW",
+            "lon": 151.4804,
+            "lat": -33.8678,
+            "city_size": 3
+          },
+          {
+            "person": "Michael Charlton",
+            "birthplace": "Sydney",
+            "state": "NSW",
+            "lon": 150.8646,
+            "lat": -33.6051,
+            "city_size": 3
+          },
+          {
+            "person": "Scott Cam",
+            "birthplace": "Sydney",
+            "state": "NSW",
+            "lon": 151.2629,
+            "lat": -34.3679,
+            "city_size": 3
+          },
+          {
+            "person": "Sonia Kruger",
+            "birthplace": "Toowoomba",
+            "state": "QLD",
+            "lon": 152.3886,
+            "lat": -27.55,
+            "city_size": 1
+          }
+        ]
+      },
+      "mark": {
+        "type": "circle",
+        "filled": true,
+        "size": 42,
+        "opacity": 0.9,
+        "stroke": "#faf7f2",
+        "strokeWidth": 0.8,
+        "color": "#b8860b"
+      },
+      "encoding": {
+        "longitude": { "field": "lon", "type": "quantitative" },
+        "latitude": { "field": "lat", "type": "quantitative" },
+        "tooltip": [
+          { "field": "person", "title": "Winner" },
+          { "field": "birthplace", "title": "Hometown" },
+          { "field": "state", "title": "State" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "background": "transparent",
+    "view": { "stroke": null },
+    "font": "'Georgia', 'Times New Roman', serif"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Four networks, one gold statue",
+    "anchor": "start",
+    "fontSize": 15,
+    "font": "'Georgia', 'Times New Roman', serif",
+    "color": "#3b352c"
+  },
+  "width": 788,
+  "height": 240,
+  "data": {
+    "url": "data/gold_logie_network_major.csv"
+  },
+  "transform": [
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "wins",
+          "as": "wins"
+        }
+      ],
+      "groupby": ["year", "network"]
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "line": true,
+    "opacity": 0.7
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "scale": {
+        "domain": [1959, 2026],
+        "zero": false
+      },
+      "axis": {
+        "format": "d",
+        "grid": false,
+        "title": "Year",
+        "labelFontSize": 11
+      }
+    },
+    "y": {
+      "field": "wins",
+      "type": "quantitative",
+      "stack": "center",
+      "axis": {
+        "title": "Gold Logie wins per year",
+        "grid": true,
+        "gridColor": "#eee5d8"
+      }
+    },
+    "color": {
+      "field": "network",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Nine", "Seven", "Ten", "ABC"],
+        "range": ["#1b3a6b", "#c0392b", "#7d3c98", "#167a6a"]
+      },
+      "legend": {
+        "title": "Network",
+        "orient": "top",
+        "columns": 4
+      }
+    },
+    "tooltip": [
+      {
+        "field": "year",
+        "title": "Year"
+      },
+      {
+        "field": "network",
+        "title": "Network"
+      },
+      {
+        "field": "wins",
+        "title": "Gold Logies"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

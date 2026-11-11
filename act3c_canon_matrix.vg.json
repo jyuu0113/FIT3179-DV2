@@ -1,0 +1,123 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 661,
+  "height": 340,
+  "data": {
+    "url": "data/both_systems_programs.csv"
+  },
+  "transform": [
+    {
+      "fold": ["logie_wins", "aacta_wins"],
+      "as": ["system", "count"]
+    },
+    {
+      "calculate": "datum.system == 'logie_wins' ? 'Logies (viewer-voted)' : 'AACTA (peer-voted)'",
+      "as": "system_label"
+    },
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "order"
+        }
+      ],
+      "sort": [
+        {
+          "field": "aacta_wins",
+          "order": "descending"
+        },
+        {
+          "field": "logie_wins",
+          "order": "descending"
+        }
+      ]
+    }
+  ],
+  "mark": {
+    "type": "rect"
+  },
+  "encoding": {
+    "y": {
+      "field": "program_display",
+      "type": "nominal",
+      "sort": {
+        "field": "order",
+        "op": "min"
+      },
+      "axis": {
+        "title": null,
+        "labelFontSize": 12,
+        "labelExpr": "datum.label"
+      }
+    },
+    "x": {
+      "field": "system_label",
+      "type": "nominal",
+      "sort": ["Logies (viewer-voted)", "AACTA (peer-voted)"],
+      "axis": {
+        "title": null,
+        "labelFontSize": 13,
+        "labelAngle": 0,
+        "labelExpr": "replace(datum.label, / \\(.+\\)$/, '')"
+      }
+    },
+    "color": {
+      "field": "count",
+      "type": "quantitative",
+      "scale": {
+        "scheme": "blues",
+        "domain": [0, 6]
+      },
+      "legend": {
+        "title": "Wins",
+        "orient": "top",
+        "direction": "horizontal",
+        "gradientLength": 150,
+        "titleFontSize": 11,
+        "labelFontSize": 11
+      }
+    },
+    "tooltip": [
+      {
+        "field": "program_display",
+        "title": "Program"
+      },
+      {
+        "field": "system_label",
+        "title": "Award system"
+      },
+      {
+        "field": "count",
+        "title": "Wins"
+      },
+      {
+        "field": "genre",
+        "title": "Genre"
+      },
+      {
+        "field": "aacta_first_win",
+        "title": "First AACTA win"
+      },
+      {
+        "field": "logie_first_win",
+        "title": "First Logie win"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

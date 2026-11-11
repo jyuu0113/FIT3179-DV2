@@ -1,0 +1,192 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 688,
+  "height": 380,
+  "data": {
+    "url": "data/gold_logie_repeat_winners.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.total_wins > 1"
+    },
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "order"
+        }
+      ],
+      "sort": [
+        {
+          "field": "total_wins",
+          "order": "descending"
+        },
+        {
+          "field": "first_win",
+          "order": "ascending"
+        }
+      ]
+    },
+    {
+      "fold": ["first_win", "last_win"],
+      "as": ["win_type", "year"]
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "person",
+      "type": "nominal",
+      "sort": {
+        "field": "order",
+        "op": "min"
+      },
+      "axis": {
+        "labelFontSize": 12,
+        "title": null,
+        "labelLimit": 200
+      }
+    },
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "scale": {
+        "domain": [1958, 2027],
+        "zero": false
+      },
+      "axis": {
+        "format": "d",
+        "grid": true,
+        "gridColor": "#eee5d8",
+        "domain": false,
+        "ticks": false,
+        "title": "Year of Gold Logie win",
+        "labelFontSize": 11
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "opacity": 0.6,
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "detail": {
+          "field": "person"
+        },
+        "color": {
+          "field": "star_type_label",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "Variety & talk show hosts",
+              "Drama & soap actors",
+              "Comedy performers",
+              "News & current affairs",
+              "Light entertainment & reality hosts"
+            ],
+            "scheme": "tableau10"
+          },
+          "legend": {
+            "title": "Star type",
+            "orient": "top",
+            "columns": 3,
+            "labelFontSize": 11,
+            "titleFontSize": 11
+          }
+        },
+        "tooltip": [
+          {
+            "field": "person",
+            "title": "Winner"
+          },
+          {
+            "field": "first_win",
+            "title": "First win"
+          },
+          {
+            "field": "last_win",
+            "title": "Most recent win"
+          },
+          {
+            "field": "total_wins",
+            "title": "Total Gold Logies"
+          },
+          {
+            "field": "programs",
+            "title": "Winning programs"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 130,
+        "stroke": "#faf7f2",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "detail": {
+          "field": "person"
+        },
+        "color": {
+          "field": "star_type_label",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Variety & talk show hosts",
+              "Drama & soap actors",
+              "Comedy performers",
+              "News & current affairs",
+              "Light entertainment & reality hosts"
+            ],
+            "scheme": "tableau10"
+          }
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.win_type == 'last_win'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dx": 8,
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#8a8072"
+      },
+      "encoding": {
+        "detail": {
+          "field": "person"
+        },
+        "text": {
+          "field": "total_wins",
+          "format": "d"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c",
+      "subtitleColor": "#8a8072"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}

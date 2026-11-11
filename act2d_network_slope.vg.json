@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 620,
+  "height": 300,
+  "data": {
+    "url": "data/network_decade_totals.csv"
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": true,
+      "size": 90
+    },
+    "strokeWidth": 2.5,
+    "opacity": 0.9
+  },
+  "encoding": {
+    "x": {
+      "field": "decade",
+      "type": "ordinal",
+      "sort": ["1960s", "1970s", "1980s", "1990s", "2000s", "2010s", "2020s"],
+      "axis": {
+        "title": "Decade of ceremony",
+        "labelAngle": 0,
+        "labelFontSize": 12
+      }
+    },
+    "y": {
+      "field": "wins",
+      "type": "quantitative",
+      "scale": {
+        "domain": [0, 10],
+        "zero": false
+      },
+      "axis": {
+        "title": "Gold Logie wins in the decade",
+        "grid": true,
+        "gridColor": "#eee5d8",
+        "tickCount": 5,
+        "labelFontSize": 11
+      }
+    },
+    "color": {
+      "field": "network",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Nine", "Seven", "Ten", "ABC"],
+        "range": ["#1b3a6b", "#c0392b", "#7d3c98", "#167a6a"]
+      },
+      "legend": {
+        "orient": "top",
+        "columns": 4,
+        "title": null,
+        "labelFontSize": 11
+      }
+    },
+    "tooltip": [
+      {
+        "field": "decade",
+        "title": "Decade"
+      },
+      {
+        "field": "network",
+        "title": "Network"
+      },
+      {
+        "field": "wins",
+        "title": "Gold Logies"
+      }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "font": "'Georgia', 'Times New Roman', serif",
+    "title": {
+      "font": "'Georgia', 'Times New Roman', serif",
+      "color": "#3b352c"
+    },
+    "axis": {
+      "domainColor": "#c9c2b8",
+      "tickColor": "#c9c2b8"
+    }
+  }
+}
